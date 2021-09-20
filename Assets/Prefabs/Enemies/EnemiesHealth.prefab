@@ -669,6 +669,7 @@ MonoBehaviour:
   currentShield: 0
   healthBar: {fileID: 7335323069463373986}
   shieldBar: {fileID: 7335323070312248622}
+  canvas: {fileID: 7335323069254484748}
   shieldParent: {fileID: 7335323069189364314}
 --- !u!1 &7335323070557187679
 GameObject:

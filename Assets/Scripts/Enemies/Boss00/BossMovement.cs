@@ -10,9 +10,6 @@ public class BossMovement : MonoBehaviour
 
     private Animator anim;
 
-    public bool isActivate;
-    public bool attack;
-
     public bool move;
 
     private BossBehaviour bossBehaviour;
@@ -28,11 +25,11 @@ public class BossMovement : MonoBehaviour
 
     private void Update()
     {
-        if (isActivate)
+        if (bossBehaviour.isActivate)
         {
             anim.SetBool("BossActive", true);
 
-            if (!attack && !bossBehaviour.regeneration)
+            if (!bossBehaviour.attack && !bossBehaviour.regeneration)
             {
                 agent.destination = target.transform.position;
             }

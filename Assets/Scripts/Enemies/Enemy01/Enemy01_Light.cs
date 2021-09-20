@@ -47,6 +47,8 @@ public class Enemy01_Light : MonoBehaviour
     private Vector3 dirTarget;
     private float distanceTarget;
 
+    [HideInInspector] public bool regenBoss;
+
     [Header("Sound")]
     private AudioSource audioSource;
     public AudioClip[] steps;
@@ -176,7 +178,7 @@ public class Enemy01_Light : MonoBehaviour
         //AI Target
         var travelPartsFinish = CheckPositionsParts();
 
-        if (travelPartsFinish)
+        if (travelPartsFinish && !regenBoss)
         {
             Vector2 newPoint;
             newPoint = Random.insideUnitCircle * 5;
@@ -235,7 +237,7 @@ public class Enemy01_Light : MonoBehaviour
             fastIKFabrics[i].enabled = true;
         }
 
-        enemiesHealth.gameObject.SetActive(true);
+        enemiesHealth.canvas.SetActive(true);
     }
 
     private void Death()
@@ -265,7 +267,9 @@ public class Enemy01_Light : MonoBehaviour
             fastIKFabrics[i].enabled = false;
         }
 
-        enemiesHealth.gameObject.SetActive(false);
+        enemiesHealth.canvas.SetActive(false);
+
+        regenBoss = false;
 
         firstDeath = true;
 

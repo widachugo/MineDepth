@@ -355,7 +355,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.43157893
+        functionName: ActivationFinished
+        data: 
+        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -413,7 +421,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.83640426
+        functionName: AttackFinished
+        data: 
+        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -442,7 +458,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.83561313
+        functionName: AttackFinished
+        data: 
+        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.17100376
+        functionName: AttackImpulsion
+        data: 
+        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -500,7 +532,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.82928884
+        functionName: AttackFinished
+        data: 
+        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -529,7 +569,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.82397825
+        functionName: AttackFinished
+        data: 
+        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.17472115
+        functionName: AttackImpulsion
+        data: 
+        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -558,7 +614,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.8226076
+        functionName: AttackFinished
+        data: 
+        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.1710037
+        functionName: AttackImpulsion
+        data: 
+        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -588,16 +660,8 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0
+      - time: 0.2639405
         functionName: RegenEnding
-        data: 
-        objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.99259275
-        functionName: RegenIsFinished
         data: 
         objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,
           type: 3}
@@ -633,7 +697,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.36792096
+      - time: 0.28252757
         functionName: RegenBegin
         data: 
         objectReferenceParameter: {fileID: 4042631346813384534, guid: 8a0aaba0de2be2047986774defc11250,

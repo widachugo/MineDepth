@@ -13,6 +13,7 @@ public class EnemiesHealth : MonoBehaviour
 
     public Image healthBar;
     public Image shieldBar;
+    public GameObject canvas;
 
     public GameObject shieldParent;
 
